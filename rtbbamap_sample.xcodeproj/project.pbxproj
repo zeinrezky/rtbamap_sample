@@ -27,6 +27,7 @@
 		36976E942C8C2B73001AB270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36976E962C8C2B73001AB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36976EA42C8C615E001AB270 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		36976EA62C8C7A02001AB270 /* rtbbamap_sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rtbbamap_sample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		36976E872C8C2B71001AB270 /* rtbbamap_sample */ = {
 			isa = PBXGroup;
 			children = (
+				36976EA62C8C7A02001AB270 /* rtbbamap_sample-Bridging-Header.h */,
 				36976E882C8C2B71001AB270 /* AppDelegate.swift */,
 				36976E8A2C8C2B71001AB270 /* SceneDelegate.swift */,
 				36976E8C2C8C2B71001AB270 /* ViewController.swift */,
@@ -186,6 +188,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -249,6 +252,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -302,9 +306,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTABMapApp/Libraries/lib",
+					"$(PROJECT_DIR)/RTABMapApp/Carthage/Build/iOS",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rtbbamap_sample/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is used for scanning (ideally with LiDAR).";
@@ -319,11 +329,27 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTABMapApp/Libraries/lib",
+					"$(PROJECT_DIR)/RTABMapApp/Libraries/share/OpenCV/3rdparty/lib",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "rizal.hilman.comsas.rtbbamap-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "rtbbamap_sample/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/RTABMapApp/Libraries/lib\"";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/RTABMapApp/Libraries/include\"",
+					"\"$(SRCROOT)/RTABMapApp/Libraries/include/eigen3\"",
+					"\"$(SRCROOT)/RTABMapApp/Libraries/include/pcl-1.11\"",
+					"\"$(SRCROOT)/RTABMapApp/Libraries/include/rtabmap-0.21\"",
+					"\"$(SRCROOT)/../android/jni/tango-gl/include\"",
+					"\"$(SRCROOT)/../android/jni/third-party/include\"",
+					"\"$(SRCROOT)/RTABMapApp/Libraries/lib/vtk.framework/Headers\"",
+				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -333,9 +359,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTABMapApp/Libraries/lib",
+					"$(PROJECT_DIR)/RTABMapApp/Carthage/Build/iOS",
+				);
+				GCC_OPTIMIZATION_LEVEL = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rtbbamap_sample/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is used for scanning (ideally with LiDAR).";
@@ -350,11 +383,27 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTABMapApp/Libraries/lib",
+					"$(PROJECT_DIR)/RTABMapApp/Libraries/share/OpenCV/3rdparty/lib",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "rizal.hilman.comsas.rtbbamap-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "rtbbamap_sample/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/RTABMapApp/Libraries/lib\"";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/RTABMapApp/Libraries/include\"",
+					"\"$(SRCROOT)/RTABMapApp/Libraries/include/eigen3\"",
+					"\"$(SRCROOT)/RTABMapApp/Libraries/include/pcl-1.11\"",
+					"\"$(SRCROOT)/RTABMapApp/Libraries/include/rtabmap-0.21\"",
+					"\"$(SRCROOT)/../android/jni/tango-gl/include\"",
+					"\"$(SRCROOT)/../android/jni/third-party/include\"",
+					"\"$(SRCROOT)/RTABMapApp/Libraries/lib/vtk.framework/Headers\"",
+				);
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

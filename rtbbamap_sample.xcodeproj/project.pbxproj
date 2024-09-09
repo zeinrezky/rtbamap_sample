@@ -447,6 +447,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364BF1762C8ECBF900FB58DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				36976E882C8C2B71001AB270 /* AppDelegate.swift */,
+				36976E8A2C8C2B71001AB270 /* SceneDelegate.swift */,
+				36976EA62C8C7A02001AB270 /* rtbbamap_sample-Bridging-Header.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		364BF1772C8ECC1300FB58DD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				364BF1782C8ECC1A00FB58DD /* AreaScan */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		364BF1782C8ECC1A00FB58DD /* AreaScan */ = {
+			isa = PBXGroup;
+			children = (
+				36976E8C2C8C2B71001AB270 /* ViewController.swift */,
+				364D53502C8EA37F0031D4BD /* RTABMap.swift */,
+				364D53522C8EA3910031D4BD /* DatabaseView.swift */,
+				364D53542C8EA3AA0031D4BD /* VerticalScrollerView.swift */,
+			);
+			path = AreaScan;
+			sourceTree = "<group>";
+		};
+		364BF1792C8ECC4200FB58DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36976E912C8C2B73001AB270 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		364D521F2C8E7D860031D4BD /* NativeWrapper */ = {
 			isa = PBXGroup;
 			children = (
@@ -673,17 +710,12 @@
 		36976E872C8C2B71001AB270 /* rtbbamap_sample */ = {
 			isa = PBXGroup;
 			children = (
+				364BF1792C8ECC4200FB58DD /* Resources */,
+				364BF1772C8ECC1300FB58DD /* Features */,
+				364BF1762C8ECBF900FB58DD /* App */,
 				364D521F2C8E7D860031D4BD /* NativeWrapper */,
 				364D52542C8E7DBF0031D4BD /* tango-gl */,
-				36976E882C8C2B71001AB270 /* AppDelegate.swift */,
-				36976EA62C8C7A02001AB270 /* rtbbamap_sample-Bridging-Header.h */,
-				36976E8A2C8C2B71001AB270 /* SceneDelegate.swift */,
-				36976E8C2C8C2B71001AB270 /* ViewController.swift */,
-				364D53502C8EA37F0031D4BD /* RTABMap.swift */,
 				36976E8E2C8C2B71001AB270 /* Main.storyboard */,
-				364D53522C8EA3910031D4BD /* DatabaseView.swift */,
-				364D53542C8EA3AA0031D4BD /* VerticalScrollerView.swift */,
-				36976E912C8C2B73001AB270 /* Assets.xcassets */,
 				36976E932C8C2B73001AB270 /* LaunchScreen.storyboard */,
 				36976E962C8C2B73001AB270 /* Info.plist */,
 			);

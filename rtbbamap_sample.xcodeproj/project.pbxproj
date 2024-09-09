@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364BF17B2C8ECE9900FB58DD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BF17A2C8ECE9900FB58DD /* MenuViewController.swift */; };
+		364BF17D2C8EDD2000FB58DD /* ScanAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BF17C2C8EDD2000FB58DD /* ScanAreaViewController.swift */; };
+		364BF1802C8F46FA00FB58DD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BF17F2C8F46FA00FB58DD /* UIColor+Extensions.swift */; };
 		364D521D2C8E7CCF0031D4BD /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 364D521C2C8E7CCF0031D4BD /* Zip */; };
 		364D52552C8E7DBF0031D4BD /* axis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D523C2C8E7DBF0031D4BD /* axis.cpp */; };
 		364D52562C8E7DBF0031D4BD /* band.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D523D2C8E7DBF0031D4BD /* band.cpp */; };
@@ -152,6 +155,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		364BF17A2C8ECE9900FB58DD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		364BF17C2C8EDD2000FB58DD /* ScanAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAreaViewController.swift; sourceTree = "<group>"; };
+		364BF17F2C8F46FA00FB58DD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		364D52202C8E7DBF0031D4BD /* axis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = axis.h; sourceTree = "<group>"; };
 		364D52212C8E7DBF0031D4BD /* band.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = band.h; sourceTree = "<group>"; };
 		364D52222C8E7DBF0031D4BD /* bounding_box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bounding_box.h; sourceTree = "<group>"; };
@@ -452,7 +458,6 @@
 			children = (
 				36976E882C8C2B71001AB270 /* AppDelegate.swift */,
 				36976E8A2C8C2B71001AB270 /* SceneDelegate.swift */,
-				36976EA62C8C7A02001AB270 /* rtbbamap_sample-Bridging-Header.h */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -461,6 +466,7 @@
 			isa = PBXGroup;
 			children = (
 				364BF1782C8ECC1A00FB58DD /* AreaScan */,
+				364BF17A2C8ECE9900FB58DD /* MenuViewController.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -472,6 +478,7 @@
 				364D53502C8EA37F0031D4BD /* RTABMap.swift */,
 				364D53522C8EA3910031D4BD /* DatabaseView.swift */,
 				364D53542C8EA3AA0031D4BD /* VerticalScrollerView.swift */,
+				364BF17C2C8EDD2000FB58DD /* ScanAreaViewController.swift */,
 			);
 			path = AreaScan;
 			sourceTree = "<group>";
@@ -482,6 +489,14 @@
 				36976E912C8C2B73001AB270 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		364BF17E2C8F46EB00FB58DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				364BF17F2C8F46FA00FB58DD /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		364D521F2C8E7D860031D4BD /* NativeWrapper */ = {
@@ -710,12 +725,14 @@
 		36976E872C8C2B71001AB270 /* rtbbamap_sample */ = {
 			isa = PBXGroup;
 			children = (
+				364BF17E2C8F46EB00FB58DD /* Extensions */,
 				364BF1792C8ECC4200FB58DD /* Resources */,
 				364BF1772C8ECC1300FB58DD /* Features */,
 				364BF1762C8ECBF900FB58DD /* App */,
 				364D521F2C8E7D860031D4BD /* NativeWrapper */,
 				364D52542C8E7DBF0031D4BD /* tango-gl */,
 				36976E8E2C8C2B71001AB270 /* Main.storyboard */,
+				36976EA62C8C7A02001AB270 /* rtbbamap_sample-Bridging-Header.h */,
 				36976E932C8C2B73001AB270 /* LaunchScreen.storyboard */,
 				36976E962C8C2B73001AB270 /* Info.plist */,
 			);
@@ -831,11 +848,13 @@
 				36976E8D2C8C2B71001AB270 /* ViewController.swift in Sources */,
 				364D52812C8E7E210031D4BD /* RTABMapApp.cpp in Sources */,
 				364D525D2C8E7DBF0031D4BD /* frustum.cpp in Sources */,
+				364BF17D2C8EDD2000FB58DD /* ScanAreaViewController.swift in Sources */,
 				364D52802C8E7E210031D4BD /* scene.cpp in Sources */,
 				364D52622C8E7DBF0031D4BD /* mesh.cpp in Sources */,
 				36976E892C8C2B71001AB270 /* AppDelegate.swift in Sources */,
 				364D52662C8E7DBF0031D4BD /* shaders.cpp in Sources */,
 				364D526B2C8E7DBF0031D4BD /* util.cpp in Sources */,
+				364BF1802C8F46FA00FB58DD /* UIColor+Extensions.swift in Sources */,
 				364D52552C8E7DBF0031D4BD /* axis.cpp in Sources */,
 				364D52562C8E7DBF0031D4BD /* band.cpp in Sources */,
 				364D53512C8EA37F0031D4BD /* RTABMap.swift in Sources */,
@@ -847,6 +866,7 @@
 				364D52602C8E7DBF0031D4BD /* grid.cpp in Sources */,
 				36976E8B2C8C2B71001AB270 /* SceneDelegate.swift in Sources */,
 				364D52572C8E7DBF0031D4BD /* bounding_box.cpp in Sources */,
+				364BF17B2C8ECE9900FB58DD /* MenuViewController.swift in Sources */,
 				364D52652C8E7DBF0031D4BD /* segment_drawable.cpp in Sources */,
 				364D52642C8E7DBF0031D4BD /* quad.cpp in Sources */,
 				364D525F2C8E7DBF0031D4BD /* goal_marker.cpp in Sources */,
@@ -1018,6 +1038,11 @@
 					"$(PROJECT_DIR)/rtbbamap_sample/Libraries/lib",
 					"$(PROJECT_DIR)/rtbbamap_sample/Carthage/Build/iOS",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					GLES_SILENCE_DEPRECATION,
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rtbbamap_sample/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is used for scanning (ideally with LiDAR).";
@@ -1026,8 +1051,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "armv7 opengles-2 arkit";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1075,6 +1100,7 @@
 					"$(PROJECT_DIR)/rtbbamap_sample/Carthage/Build/iOS",
 				);
 				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = GLES_SILENCE_DEPRECATION;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rtbbamap_sample/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is used for scanning (ideally with LiDAR).";
@@ -1083,8 +1109,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "armv7 opengles-2 arkit";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

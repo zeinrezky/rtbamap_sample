@@ -13,7 +13,6 @@
 		36976E902C8C2B71001AB270 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36976E8F2C8C2B71001AB270 /* Base */; };
 		36976E922C8C2B73001AB270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36976E912C8C2B73001AB270 /* Assets.xcassets */; };
 		36976E952C8C2B73001AB270 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36976E942C8C2B73001AB270 /* Base */; };
-		36976EA32C8C4A04001AB270 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 36976EA22C8C4A04001AB270 /* Zip */; };
 		36976EA52C8C615E001AB270 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36976EA42C8C615E001AB270 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36976EA32C8C4A04001AB270 /* Zip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +89,6 @@
 			);
 			name = rtbbamap_sample;
 			packageProductDependencies = (
-				36976EA22C8C4A04001AB270 /* Zip */,
 			);
 			productName = rtbbamap_sample;
 			productReference = 36976E852C8C2B71001AB270 /* rtbbamap_sample.app */;
@@ -122,7 +119,6 @@
 			);
 			mainGroup = 36976E7C2C8C2B71001AB270;
 			packageReferences = (
-				36976EA12C8C4A04001AB270 /* XCRemoteSwiftPackageReference "Zip" */,
 			);
 			productRefGroup = 36976E862C8C2B71001AB270 /* Products */;
 			projectDirPath = "";
@@ -430,25 +426,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		36976EA12C8C4A04001AB270 /* XCRemoteSwiftPackageReference "Zip" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/marmelroy/Zip";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		36976EA22C8C4A04001AB270 /* Zip */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 36976EA12C8C4A04001AB270 /* XCRemoteSwiftPackageReference "Zip" */;
-			productName = Zip;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 36976E7D2C8C2B71001AB270 /* Project object */;
 }

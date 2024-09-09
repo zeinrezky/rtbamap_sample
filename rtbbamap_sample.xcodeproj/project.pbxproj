@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364D521D2C8E7CCF0031D4BD /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 364D521C2C8E7CCF0031D4BD /* Zip */; };
 		36976E892C8C2B71001AB270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36976E882C8C2B71001AB270 /* AppDelegate.swift */; };
 		36976E8B2C8C2B71001AB270 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36976E8A2C8C2B71001AB270 /* SceneDelegate.swift */; };
 		36976E8D2C8C2B71001AB270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36976E8C2C8C2B71001AB270 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364D521D2C8E7CCF0031D4BD /* Zip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +91,7 @@
 			);
 			name = rtbbamap_sample;
 			packageProductDependencies = (
+				364D521C2C8E7CCF0031D4BD /* Zip */,
 			);
 			productName = rtbbamap_sample;
 			productReference = 36976E852C8C2B71001AB270 /* rtbbamap_sample.app */;
@@ -119,6 +122,7 @@
 			);
 			mainGroup = 36976E7C2C8C2B71001AB270;
 			packageReferences = (
+				364D521B2C8E7CCF0031D4BD /* XCRemoteSwiftPackageReference "Zip" */,
 			);
 			productRefGroup = 36976E862C8C2B71001AB270 /* Products */;
 			projectDirPath = "";
@@ -426,6 +430,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		364D521B2C8E7CCF0031D4BD /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		364D521C2C8E7CCF0031D4BD /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 364D521B2C8E7CCF0031D4BD /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 36976E7D2C8C2B71001AB270 /* Project object */;
 }

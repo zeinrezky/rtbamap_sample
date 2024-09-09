@@ -84,6 +84,7 @@
 				36976E812C8C2B71001AB270 /* Sources */,
 				36976E822C8C2B71001AB270 /* Frameworks */,
 				36976E832C8C2B71001AB270 /* Resources */,
+				364D521E2C8E7D5F0031D4BD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -146,6 +147,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		364D521E2C8E7D5F0031D4BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nversion=\"$MARKETING_VERSION\"\n/usr/libexec/PlistBuddy -c \"Set PreferenceSpecifiers:22:DefaultValue $version\" \"${SRCROOT}/Settings.bundle/Root.plist\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		36976E812C8C2B71001AB270 /* Sources */ = {
@@ -310,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RTABMapApp/Libraries/lib",
@@ -363,6 +385,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73TW42T8UJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RTABMapApp/Libraries/lib",

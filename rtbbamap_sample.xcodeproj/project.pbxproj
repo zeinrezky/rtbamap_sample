@@ -8,6 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		364D521D2C8E7CCF0031D4BD /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 364D521C2C8E7CCF0031D4BD /* Zip */; };
+		364D52552C8E7DBF0031D4BD /* axis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D523C2C8E7DBF0031D4BD /* axis.cpp */; };
+		364D52562C8E7DBF0031D4BD /* band.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D523D2C8E7DBF0031D4BD /* band.cpp */; };
+		364D52572C8E7DBF0031D4BD /* bounding_box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D523E2C8E7DBF0031D4BD /* bounding_box.cpp */; };
+		364D52582C8E7DBF0031D4BD /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D523F2C8E7DBF0031D4BD /* camera.cpp */; };
+		364D52592C8E7DBF0031D4BD /* circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52402C8E7DBF0031D4BD /* circle.cpp */; };
+		364D525A2C8E7DBF0031D4BD /* conversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52412C8E7DBF0031D4BD /* conversions.cpp */; };
+		364D525B2C8E7DBF0031D4BD /* cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52422C8E7DBF0031D4BD /* cube.cpp */; };
+		364D525C2C8E7DBF0031D4BD /* drawable_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52432C8E7DBF0031D4BD /* drawable_object.cpp */; };
+		364D525D2C8E7DBF0031D4BD /* frustum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52442C8E7DBF0031D4BD /* frustum.cpp */; };
+		364D525E2C8E7DBF0031D4BD /* gesture_camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52452C8E7DBF0031D4BD /* gesture_camera.cpp */; };
+		364D525F2C8E7DBF0031D4BD /* goal_marker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52462C8E7DBF0031D4BD /* goal_marker.cpp */; };
+		364D52602C8E7DBF0031D4BD /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52472C8E7DBF0031D4BD /* grid.cpp */; };
+		364D52612C8E7DBF0031D4BD /* line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52482C8E7DBF0031D4BD /* line.cpp */; };
+		364D52622C8E7DBF0031D4BD /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52492C8E7DBF0031D4BD /* mesh.cpp */; };
+		364D52632C8E7DBF0031D4BD /* obj_loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D524A2C8E7DBF0031D4BD /* obj_loader.cpp */; };
+		364D52642C8E7DBF0031D4BD /* quad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D524B2C8E7DBF0031D4BD /* quad.cpp */; };
+		364D52652C8E7DBF0031D4BD /* segment_drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D524C2C8E7DBF0031D4BD /* segment_drawable.cpp */; };
+		364D52662C8E7DBF0031D4BD /* shaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D524D2C8E7DBF0031D4BD /* shaders.cpp */; };
+		364D52672C8E7DBF0031D4BD /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D524E2C8E7DBF0031D4BD /* texture.cpp */; };
+		364D52682C8E7DBF0031D4BD /* trace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D524F2C8E7DBF0031D4BD /* trace.cpp */; };
+		364D52692C8E7DBF0031D4BD /* transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52502C8E7DBF0031D4BD /* transform.cpp */; };
+		364D526A2C8E7DBF0031D4BD /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52512C8E7DBF0031D4BD /* triangle.cpp */; };
+		364D526B2C8E7DBF0031D4BD /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52522C8E7DBF0031D4BD /* util.cpp */; };
+		364D526C2C8E7DBF0031D4BD /* video_overlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52532C8E7DBF0031D4BD /* video_overlay.cpp */; };
+		364D527C2C8E7E210031D4BD /* point_cloud_drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D526E2C8E7E210031D4BD /* point_cloud_drawable.cpp */; };
+		364D527D2C8E7E210031D4BD /* CameraMobile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D526F2C8E7E210031D4BD /* CameraMobile.cpp */; };
+		364D527E2C8E7E210031D4BD /* background_renderer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 364D52702C8E7E210031D4BD /* background_renderer.cc */; };
+		364D527F2C8E7E210031D4BD /* graph_drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52732C8E7E210031D4BD /* graph_drawable.cpp */; };
+		364D52802C8E7E210031D4BD /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52752C8E7E210031D4BD /* scene.cpp */; };
+		364D52812C8E7E210031D4BD /* RTABMapApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52772C8E7E210031D4BD /* RTABMapApp.cpp */; };
+		364D52842C8E7E6B0031D4BD /* NativeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364D52822C8E7E6B0031D4BD /* NativeWrapper.cpp */; };
 		36976E892C8C2B71001AB270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36976E882C8C2B71001AB270 /* AppDelegate.swift */; };
 		36976E8B2C8C2B71001AB270 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36976E8A2C8C2B71001AB270 /* SceneDelegate.swift */; };
 		36976E8D2C8C2B71001AB270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36976E8C2C8C2B71001AB270 /* ViewController.swift */; };
@@ -18,6 +49,73 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		364D52202C8E7DBF0031D4BD /* axis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = axis.h; sourceTree = "<group>"; };
+		364D52212C8E7DBF0031D4BD /* band.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = band.h; sourceTree = "<group>"; };
+		364D52222C8E7DBF0031D4BD /* bounding_box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bounding_box.h; sourceTree = "<group>"; };
+		364D52232C8E7DBF0031D4BD /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		364D52242C8E7DBF0031D4BD /* circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circle.h; sourceTree = "<group>"; };
+		364D52252C8E7DBF0031D4BD /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		364D52262C8E7DBF0031D4BD /* conversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conversions.h; sourceTree = "<group>"; };
+		364D52272C8E7DBF0031D4BD /* cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube.h; sourceTree = "<group>"; };
+		364D52282C8E7DBF0031D4BD /* drawable_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawable_object.h; sourceTree = "<group>"; };
+		364D52292C8E7DBF0031D4BD /* frustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frustum.h; sourceTree = "<group>"; };
+		364D522A2C8E7DBF0031D4BD /* gesture_camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gesture_camera.h; sourceTree = "<group>"; };
+		364D522B2C8E7DBF0031D4BD /* goal_marker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goal_marker.h; sourceTree = "<group>"; };
+		364D522C2C8E7DBF0031D4BD /* grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		364D522D2C8E7DBF0031D4BD /* line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = line.h; sourceTree = "<group>"; };
+		364D522E2C8E7DBF0031D4BD /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		364D522F2C8E7DBF0031D4BD /* obj_loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_loader.h; sourceTree = "<group>"; };
+		364D52302C8E7DBF0031D4BD /* quad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quad.h; sourceTree = "<group>"; };
+		364D52312C8E7DBF0031D4BD /* segment_drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segment_drawable.h; sourceTree = "<group>"; };
+		364D52322C8E7DBF0031D4BD /* segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segment.h; sourceTree = "<group>"; };
+		364D52332C8E7DBF0031D4BD /* shaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaders.h; sourceTree = "<group>"; };
+		364D52342C8E7DBF0031D4BD /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		364D52352C8E7DBF0031D4BD /* trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trace.h; sourceTree = "<group>"; };
+		364D52362C8E7DBF0031D4BD /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
+		364D52372C8E7DBF0031D4BD /* triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triangle.h; sourceTree = "<group>"; };
+		364D52382C8E7DBF0031D4BD /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		364D52392C8E7DBF0031D4BD /* video_overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video_overlay.h; sourceTree = "<group>"; };
+		364D523C2C8E7DBF0031D4BD /* axis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = axis.cpp; sourceTree = "<group>"; };
+		364D523D2C8E7DBF0031D4BD /* band.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = band.cpp; sourceTree = "<group>"; };
+		364D523E2C8E7DBF0031D4BD /* bounding_box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bounding_box.cpp; sourceTree = "<group>"; };
+		364D523F2C8E7DBF0031D4BD /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		364D52402C8E7DBF0031D4BD /* circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = circle.cpp; sourceTree = "<group>"; };
+		364D52412C8E7DBF0031D4BD /* conversions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conversions.cpp; sourceTree = "<group>"; };
+		364D52422C8E7DBF0031D4BD /* cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cube.cpp; sourceTree = "<group>"; };
+		364D52432C8E7DBF0031D4BD /* drawable_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drawable_object.cpp; sourceTree = "<group>"; };
+		364D52442C8E7DBF0031D4BD /* frustum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = frustum.cpp; sourceTree = "<group>"; };
+		364D52452C8E7DBF0031D4BD /* gesture_camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gesture_camera.cpp; sourceTree = "<group>"; };
+		364D52462C8E7DBF0031D4BD /* goal_marker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goal_marker.cpp; sourceTree = "<group>"; };
+		364D52472C8E7DBF0031D4BD /* grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grid.cpp; sourceTree = "<group>"; };
+		364D52482C8E7DBF0031D4BD /* line.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = line.cpp; sourceTree = "<group>"; };
+		364D52492C8E7DBF0031D4BD /* mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh.cpp; sourceTree = "<group>"; };
+		364D524A2C8E7DBF0031D4BD /* obj_loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = obj_loader.cpp; sourceTree = "<group>"; };
+		364D524B2C8E7DBF0031D4BD /* quad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quad.cpp; sourceTree = "<group>"; };
+		364D524C2C8E7DBF0031D4BD /* segment_drawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = segment_drawable.cpp; sourceTree = "<group>"; };
+		364D524D2C8E7DBF0031D4BD /* shaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders.cpp; sourceTree = "<group>"; };
+		364D524E2C8E7DBF0031D4BD /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
+		364D524F2C8E7DBF0031D4BD /* trace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trace.cpp; sourceTree = "<group>"; };
+		364D52502C8E7DBF0031D4BD /* transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transform.cpp; sourceTree = "<group>"; };
+		364D52512C8E7DBF0031D4BD /* triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
+		364D52522C8E7DBF0031D4BD /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		364D52532C8E7DBF0031D4BD /* video_overlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = video_overlay.cpp; sourceTree = "<group>"; };
+		364D526D2C8E7E210031D4BD /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = ../../android/jni/util.h; sourceTree = "<group>"; };
+		364D526E2C8E7E210031D4BD /* point_cloud_drawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = point_cloud_drawable.cpp; path = ../../android/jni/point_cloud_drawable.cpp; sourceTree = "<group>"; };
+		364D526F2C8E7E210031D4BD /* CameraMobile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CameraMobile.cpp; path = ../../android/jni/CameraMobile.cpp; sourceTree = "<group>"; };
+		364D52702C8E7E210031D4BD /* background_renderer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = background_renderer.cc; path = ../../android/jni/background_renderer.cc; sourceTree = "<group>"; };
+		364D52712C8E7E210031D4BD /* bounding_box_drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bounding_box_drawable.h; path = ../../android/jni/bounding_box_drawable.h; sourceTree = "<group>"; };
+		364D52722C8E7E210031D4BD /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scene.h; path = ../../android/jni/scene.h; sourceTree = "<group>"; };
+		364D52732C8E7E210031D4BD /* graph_drawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graph_drawable.cpp; path = ../../android/jni/graph_drawable.cpp; sourceTree = "<group>"; };
+		364D52742C8E7E210031D4BD /* RTABMapApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTABMapApp.h; path = ../../android/jni/RTABMapApp.h; sourceTree = "<group>"; };
+		364D52752C8E7E210031D4BD /* scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scene.cpp; path = ../../android/jni/scene.cpp; sourceTree = "<group>"; };
+		364D52762C8E7E210031D4BD /* point_cloud_drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = point_cloud_drawable.h; path = ../../android/jni/point_cloud_drawable.h; sourceTree = "<group>"; };
+		364D52772C8E7E210031D4BD /* RTABMapApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RTABMapApp.cpp; path = ../../android/jni/RTABMapApp.cpp; sourceTree = "<group>"; };
+		364D52782C8E7E210031D4BD /* graph_drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graph_drawable.h; path = ../../android/jni/graph_drawable.h; sourceTree = "<group>"; };
+		364D52792C8E7E210031D4BD /* CameraMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraMobile.h; path = ../../android/jni/CameraMobile.h; sourceTree = "<group>"; };
+		364D527A2C8E7E210031D4BD /* ProgressionStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressionStatus.h; path = ../../android/jni/ProgressionStatus.h; sourceTree = "<group>"; };
+		364D527B2C8E7E210031D4BD /* background_renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = background_renderer.h; path = ../../android/jni/background_renderer.h; sourceTree = "<group>"; };
+		364D52822C8E7E6B0031D4BD /* NativeWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NativeWrapper.cpp; sourceTree = "<group>"; };
+		364D52832C8E7E6B0031D4BD /* NativeWrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NativeWrapper.hpp; sourceTree = "<group>"; };
 		36976E852C8C2B71001AB270 /* rtbbamap_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rtbbamap_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36976E882C8C2B71001AB270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36976E8A2C8C2B71001AB270 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +140,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364D521F2C8E7D860031D4BD /* NativeWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				364D52822C8E7E6B0031D4BD /* NativeWrapper.cpp */,
+				364D52832C8E7E6B0031D4BD /* NativeWrapper.hpp */,
+				364D52702C8E7E210031D4BD /* background_renderer.cc */,
+				364D527B2C8E7E210031D4BD /* background_renderer.h */,
+				364D52772C8E7E210031D4BD /* RTABMapApp.cpp */,
+				364D52742C8E7E210031D4BD /* RTABMapApp.h */,
+				364D526F2C8E7E210031D4BD /* CameraMobile.cpp */,
+				364D52792C8E7E210031D4BD /* CameraMobile.h */,
+				364D526D2C8E7E210031D4BD /* util.h */,
+				364D52712C8E7E210031D4BD /* bounding_box_drawable.h */,
+				364D52732C8E7E210031D4BD /* graph_drawable.cpp */,
+				364D52782C8E7E210031D4BD /* graph_drawable.h */,
+				364D526E2C8E7E210031D4BD /* point_cloud_drawable.cpp */,
+				364D52762C8E7E210031D4BD /* point_cloud_drawable.h */,
+				364D527A2C8E7E210031D4BD /* ProgressionStatus.h */,
+				364D52752C8E7E210031D4BD /* scene.cpp */,
+				364D52722C8E7E210031D4BD /* scene.h */,
+			);
+			name = NativeWrapper;
+			sourceTree = "<group>";
+		};
+		364D523A2C8E7DBF0031D4BD /* tango-gl */ = {
+			isa = PBXGroup;
+			children = (
+				364D52202C8E7DBF0031D4BD /* axis.h */,
+				364D52212C8E7DBF0031D4BD /* band.h */,
+				364D52222C8E7DBF0031D4BD /* bounding_box.h */,
+				364D52232C8E7DBF0031D4BD /* camera.h */,
+				364D52242C8E7DBF0031D4BD /* circle.h */,
+				364D52252C8E7DBF0031D4BD /* color.h */,
+				364D52262C8E7DBF0031D4BD /* conversions.h */,
+				364D52272C8E7DBF0031D4BD /* cube.h */,
+				364D52282C8E7DBF0031D4BD /* drawable_object.h */,
+				364D52292C8E7DBF0031D4BD /* frustum.h */,
+				364D522A2C8E7DBF0031D4BD /* gesture_camera.h */,
+				364D522B2C8E7DBF0031D4BD /* goal_marker.h */,
+				364D522C2C8E7DBF0031D4BD /* grid.h */,
+				364D522D2C8E7DBF0031D4BD /* line.h */,
+				364D522E2C8E7DBF0031D4BD /* mesh.h */,
+				364D522F2C8E7DBF0031D4BD /* obj_loader.h */,
+				364D52302C8E7DBF0031D4BD /* quad.h */,
+				364D52312C8E7DBF0031D4BD /* segment_drawable.h */,
+				364D52322C8E7DBF0031D4BD /* segment.h */,
+				364D52332C8E7DBF0031D4BD /* shaders.h */,
+				364D52342C8E7DBF0031D4BD /* texture.h */,
+				364D52352C8E7DBF0031D4BD /* trace.h */,
+				364D52362C8E7DBF0031D4BD /* transform.h */,
+				364D52372C8E7DBF0031D4BD /* triangle.h */,
+				364D52382C8E7DBF0031D4BD /* util.h */,
+				364D52392C8E7DBF0031D4BD /* video_overlay.h */,
+			);
+			path = "tango-gl";
+			sourceTree = "<group>";
+		};
+		364D523B2C8E7DBF0031D4BD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				364D523A2C8E7DBF0031D4BD /* tango-gl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		364D52542C8E7DBF0031D4BD /* tango-gl */ = {
+			isa = PBXGroup;
+			children = (
+				364D523B2C8E7DBF0031D4BD /* include */,
+				364D523C2C8E7DBF0031D4BD /* axis.cpp */,
+				364D523D2C8E7DBF0031D4BD /* band.cpp */,
+				364D523E2C8E7DBF0031D4BD /* bounding_box.cpp */,
+				364D523F2C8E7DBF0031D4BD /* camera.cpp */,
+				364D52402C8E7DBF0031D4BD /* circle.cpp */,
+				364D52412C8E7DBF0031D4BD /* conversions.cpp */,
+				364D52422C8E7DBF0031D4BD /* cube.cpp */,
+				364D52432C8E7DBF0031D4BD /* drawable_object.cpp */,
+				364D52442C8E7DBF0031D4BD /* frustum.cpp */,
+				364D52452C8E7DBF0031D4BD /* gesture_camera.cpp */,
+				364D52462C8E7DBF0031D4BD /* goal_marker.cpp */,
+				364D52472C8E7DBF0031D4BD /* grid.cpp */,
+				364D52482C8E7DBF0031D4BD /* line.cpp */,
+				364D52492C8E7DBF0031D4BD /* mesh.cpp */,
+				364D524A2C8E7DBF0031D4BD /* obj_loader.cpp */,
+				364D524B2C8E7DBF0031D4BD /* quad.cpp */,
+				364D524C2C8E7DBF0031D4BD /* segment_drawable.cpp */,
+				364D524D2C8E7DBF0031D4BD /* shaders.cpp */,
+				364D524E2C8E7DBF0031D4BD /* texture.cpp */,
+				364D524F2C8E7DBF0031D4BD /* trace.cpp */,
+				364D52502C8E7DBF0031D4BD /* transform.cpp */,
+				364D52512C8E7DBF0031D4BD /* triangle.cpp */,
+				364D52522C8E7DBF0031D4BD /* util.cpp */,
+				364D52532C8E7DBF0031D4BD /* video_overlay.cpp */,
+			);
+			name = "tango-gl";
+			path = "../../android/jni/tango-gl";
+			sourceTree = "<group>";
+		};
 		36976E7C2C8C2B71001AB270 = {
 			isa = PBXGroup;
 			children = (
@@ -62,8 +258,10 @@
 		36976E872C8C2B71001AB270 /* rtbbamap_sample */ = {
 			isa = PBXGroup;
 			children = (
-				36976EA62C8C7A02001AB270 /* rtbbamap_sample-Bridging-Header.h */,
+				364D521F2C8E7D860031D4BD /* NativeWrapper */,
+				364D52542C8E7DBF0031D4BD /* tango-gl */,
 				36976E882C8C2B71001AB270 /* AppDelegate.swift */,
+				36976EA62C8C7A02001AB270 /* rtbbamap_sample-Bridging-Header.h */,
 				36976E8A2C8C2B71001AB270 /* SceneDelegate.swift */,
 				36976E8C2C8C2B71001AB270 /* ViewController.swift */,
 				36976E8E2C8C2B71001AB270 /* Main.storyboard */,
@@ -173,9 +371,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364D52582C8E7DBF0031D4BD /* camera.cpp in Sources */,
+				364D52612C8E7DBF0031D4BD /* line.cpp in Sources */,
+				364D527C2C8E7E210031D4BD /* point_cloud_drawable.cpp in Sources */,
+				364D52692C8E7DBF0031D4BD /* transform.cpp in Sources */,
+				364D526A2C8E7DBF0031D4BD /* triangle.cpp in Sources */,
 				36976E8D2C8C2B71001AB270 /* ViewController.swift in Sources */,
+				364D526C2C8E7DBF0031D4BD /* video_overlay.cpp in Sources */,
+				364D52812C8E7E210031D4BD /* RTABMapApp.cpp in Sources */,
+				364D525D2C8E7DBF0031D4BD /* frustum.cpp in Sources */,
+				364D52802C8E7E210031D4BD /* scene.cpp in Sources */,
+				364D52622C8E7DBF0031D4BD /* mesh.cpp in Sources */,
 				36976E892C8C2B71001AB270 /* AppDelegate.swift in Sources */,
+				364D52662C8E7DBF0031D4BD /* shaders.cpp in Sources */,
+				364D526B2C8E7DBF0031D4BD /* util.cpp in Sources */,
+				364D52552C8E7DBF0031D4BD /* axis.cpp in Sources */,
+				364D52562C8E7DBF0031D4BD /* band.cpp in Sources */,
+				364D527D2C8E7E210031D4BD /* CameraMobile.cpp in Sources */,
+				364D52592C8E7DBF0031D4BD /* circle.cpp in Sources */,
+				364D52682C8E7DBF0031D4BD /* trace.cpp in Sources */,
+				364D525C2C8E7DBF0031D4BD /* drawable_object.cpp in Sources */,
+				364D52842C8E7E6B0031D4BD /* NativeWrapper.cpp in Sources */,
+				364D52602C8E7DBF0031D4BD /* grid.cpp in Sources */,
 				36976E8B2C8C2B71001AB270 /* SceneDelegate.swift in Sources */,
+				364D52572C8E7DBF0031D4BD /* bounding_box.cpp in Sources */,
+				364D52652C8E7DBF0031D4BD /* segment_drawable.cpp in Sources */,
+				364D52642C8E7DBF0031D4BD /* quad.cpp in Sources */,
+				364D525F2C8E7DBF0031D4BD /* goal_marker.cpp in Sources */,
+				364D52632C8E7DBF0031D4BD /* obj_loader.cpp in Sources */,
+				364D525B2C8E7DBF0031D4BD /* cube.cpp in Sources */,
+				364D527E2C8E7E210031D4BD /* background_renderer.cc in Sources */,
+				364D525A2C8E7DBF0031D4BD /* conversions.cpp in Sources */,
+				364D525E2C8E7DBF0031D4BD /* gesture_camera.cpp in Sources */,
+				364D52672C8E7DBF0031D4BD /* texture.cpp in Sources */,
+				364D527F2C8E7E210031D4BD /* graph_drawable.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +468,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -303,7 +532,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -334,8 +563,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/RTABMapApp/Libraries/lib",
-					"$(PROJECT_DIR)/RTABMapApp/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/rtbbamap_sample/Libraries/lib",
+					"$(PROJECT_DIR)/rtbbamap_sample/Carthage/Build/iOS",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rtbbamap_sample/Info.plist;
@@ -362,12 +591,12 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "rtbbamap_sample/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/RTABMapApp/Libraries/lib\"";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/rtbbamap_sample/Libraries/lib\"";
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/RTABMapApp/Libraries/include\"",
-					"\"$(SRCROOT)/RTABMapApp/Libraries/include/eigen3\"",
-					"\"$(SRCROOT)/RTABMapApp/Libraries/include/pcl-1.11\"",
-					"\"$(SRCROOT)/RTABMapApp/Libraries/include/rtabmap-0.21\"",
+					"\"$(SRCROOT)/rtbbamap_sample/Libraries/include\"",
+					"\"$(SRCROOT)/rtbbamap_sample/Libraries/include/eigen3\"",
+					"\"$(SRCROOT)/rtbbamap_sample/Libraries/include/pcl-1.11\"",
+					"\"$(SRCROOT)/rtbbamap_sample/Libraries/include/rtabmap-0.21\"",
 					"\"$(SRCROOT)/../android/jni/tango-gl/include\"",
 					"\"$(SRCROOT)/../android/jni/third-party/include\"",
 					"\"$(SRCROOT)/RTABMapApp/Libraries/lib/vtk.framework/Headers\"",
@@ -388,8 +617,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/RTABMapApp/Libraries/lib",
-					"$(PROJECT_DIR)/RTABMapApp/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/rtbbamap_sample/Libraries/lib",
+					"$(PROJECT_DIR)/rtbbamap_sample/Carthage/Build/iOS",
 				);
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -417,12 +646,12 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "rtbbamap_sample/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/RTABMapApp/Libraries/lib\"";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/rtbbamap_sample/Libraries/lib\"";
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/RTABMapApp/Libraries/include\"",
-					"\"$(SRCROOT)/RTABMapApp/Libraries/include/eigen3\"",
-					"\"$(SRCROOT)/RTABMapApp/Libraries/include/pcl-1.11\"",
-					"\"$(SRCROOT)/RTABMapApp/Libraries/include/rtabmap-0.21\"",
+					"\"$(SRCROOT)/rtbbamap_sample/Libraries/include\"",
+					"\"$(SRCROOT)/rtbbamap_sample/Libraries/include/eigen3\"",
+					"\"$(SRCROOT)/rtbbamap_sample/Libraries/include/pcl-1.11\"",
+					"\"$(SRCROOT)/rtbbamap_sample/Libraries/include/rtabmap-0.21\"",
 					"\"$(SRCROOT)/../android/jni/tango-gl/include\"",
 					"\"$(SRCROOT)/../android/jni/third-party/include\"",
 					"\"$(SRCROOT)/RTABMapApp/Libraries/lib/vtk.framework/Headers\"",
